@@ -7,5 +7,8 @@ class Node {
         Node *leftchild;
         Node *rightchild;
 
-        
+        Node() {
+            leftchild = nullptr;
+            rightchild = nullptr;
+        }
 };
