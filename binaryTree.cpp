@@ -30,7 +30,11 @@ class BinaryTree {
 
             newNode->info = x;
 
-            
+            newNode->leftchild = nullptr;
+            newNode->rightchild = nullptr;
+
+            Node *parent = nullptr;
+            Node *currentNode = nullptr;
 
             
 
